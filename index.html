@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+  <title>@Media</title>
+  <style>
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    @media (max-width: 318px) {
+      span {
+        color: lightsalmon;
+      }
+    }
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon; 
+      }
+      span {
+        color: powderblue;
+      }
+    }
+    @media (min-width: 481px) and (max-width: 1000px) {
+      body {
+        background-color: powderblue; 
+      }
+      span {
+        color: limegreen;
+      }
+    }
+    @media (min-width: 1001px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen; 
+      }
+      span  {
+        color: seagreen;
+      }
+    }
+    @media (min-width: 1601px) and (max-width: 5000px) {
+      body {
+        background-color: seagreen; 
+      }
+      span {
+        color: white;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1><span>Change</span> me<h/1>
+
+</body>
+
+</html>
